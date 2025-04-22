@@ -1,0 +1,28 @@
+[tool.poetry]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+streamlit = "^1.42.1"
+scipy = "^1.15.2"
+numpy = "2.1"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+ipykernel = "^6.29.5"
+soundfile = "^0.13.1"
+filetype = "^1.2.0"
+librosa = "^0.10.2.post1"
+resampy = "^0.4.3"
+pydub = "^0.25.1"
+audioop-lts = {markers = "python_version >= \"3.13\"", version = "^0.2.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[server]
+enableCORS = false
+enableXsrfProtection = false
