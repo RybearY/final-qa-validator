@@ -1,9 +1,8 @@
-# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
-streamlit
-librosa
-numpy
-pandas
-matplotlib
-soundfile
-filetype
-pydub
+streamlit==1.32.2
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+librosa==0.10.2.post1
+soundfile==0.12.1
+filetype==1.2.0
+pydub==0.25.1
